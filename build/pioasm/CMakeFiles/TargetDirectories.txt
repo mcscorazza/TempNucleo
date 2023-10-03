@@ -1,0 +1,3 @@
+C:/dev/unisal/Arquitetura/TempNucleo/build/pioasm/CMakeFiles/pioasm.dir
+C:/dev/unisal/Arquitetura/TempNucleo/build/pioasm/CMakeFiles/edit_cache.dir
+C:/dev/unisal/Arquitetura/TempNucleo/build/pioasm/CMakeFiles/rebuild_cache.dir
