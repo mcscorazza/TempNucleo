@@ -1,12 +1,12 @@
-# Exercício de fixação dos conteúdos apresentados na aula 2
+## Exercício de fixação dos conteúdos apresentados na aula 2
 
-## Enunciado do Exercício
+### Enunciado do Exercício
 
 Conforme apresentado no vídeo, da segunda aula remota, o Micrcontrolador RP2040, presente na Raspberry Pi Pico (w), possui ligado a um de seus canais no conversor analógico digital um sensor de temperatura, para monitoramento da temperatura no núcleo da CPU, com base nos exemplos do vídeo e o conteúdo do Datasheet, escreva um firmware que:
 Através de Um Timer periódico, Leia a temperatura da CPU e a envie via serial para o computador;
 Os códigos desenvolvidos devem ser colocados em uma conta do github e somente seu link deve ser enviado como resposta.
 
-### Compilando no Windows 
+#### Compilando no Windows 
 Para compilar o projeto no Windows, execute os seguintes comandos no diretório raiz do projeto
 
 ```console
@@ -16,7 +16,7 @@ cmake ..
 ninja
 ```
 
-### Compilando em Sistemas Operacionais Baseados em Linux 
+#### Compilando em Sistemas Operacionais Baseados em Linux 
 Para compilar o projeto em Sistemas Operacionais Baseados em Linux, execute os seguintes comandos no diretório raiz do projeto
 
 ```console
@@ -27,7 +27,7 @@ make
 ```
 
 
-### Saída do programa - Serial Output
+#### Saída do programa - Serial Output
 ```console
 Leitura ADC: 877 | Valor voltagem: 0.70657 V | Temperatura do Núcleo: 26.67 .C
 Leitura ADC: 876 | Valor voltagem: 0.70576 V | Temperatura do Núcleo: 27.14 .C
